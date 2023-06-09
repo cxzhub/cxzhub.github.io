@@ -1,1 +1,0 @@
-import{g as n,d as g}from"./tag.963945a6.js";var l="Expected a function";function f(t,a,r){var e=!0,i=!0;if(typeof t!="function")throw new TypeError(l);return n(r)&&(e="leading"in r?!!r.leading:e,i="trailing"in r?!!r.trailing:i),g(t,a,{leading:e,maxWait:a,trailing:i})}export{f as t};
